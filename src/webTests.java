@@ -14,6 +14,5 @@ public class webTests {
 
         System.out.println("\u001B[34m" + "Test" + "\u001B[0m");
 
-
     }
 }
