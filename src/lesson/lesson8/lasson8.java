@@ -21,19 +21,37 @@ public class lasson8 {
         Integer intReg1 = 4;
         Double doubReg = 5.5;
 
-        Integer intObject = new Integer(4);
-        Double doubObject = new Double(5.5);
+//        Integer intObject = new Integer(4);
+//        Double doubObject = new Double(5.5);
 
         String str1 = "Hello";
         String str2 = "Hello";
 
         String strObject = new String("Hello");
 
+//        Math math = new Math();
 
         System.out.println(str1 == str2);
-        System.out.println(intReg == intReg1);
+        System.out.println(str1 == strObject);
 
-        System.out.println(intReg == intObject);
+        System.out.println("___________________");
+        System.out.println(intReg == intReg1);
+//        System.out.println(intReg == intObject);
+
+        System.out.println("@@@@@@@@@@@@@@@@@@@@@@@");
+        String cat1 = "Cat";
+        String cat2 = "Cat";
+        String cat3 = new String("Cat");
+        String cat4 = new String("Cat");
+
+        System.out.println(cat3 == cat4);
+        System.out.println("@@@ CATS @@@");
+        System.out.println(cat1 == lesson8_1.str1_1);
+
+
+
+
+
 
 
 
