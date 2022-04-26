@@ -1,6 +1,9 @@
 package lesson.lesson8;
 
-public class lasson8 {
+
+import static utils.Utils.*;
+
+public class lesson8 {
 
 
     public static void main(String[] args) {
@@ -21,7 +24,7 @@ public class lasson8 {
         Integer intReg1 = 4;
         Double doubReg = 5.5;
 
-//        Integer intObject = new Integer(4);
+//       Integer intObject = new Integer(4);
 //        Double doubObject = new Double(5.5);
 
         String str1 = "Hello";
@@ -47,6 +50,18 @@ public class lasson8 {
         System.out.println(cat3 == cat4);
         System.out.println("@@@ CATS @@@");
         System.out.println(cat1 == lesson8_1.str1_1);
+
+        System.out.println(cat1.equals(cat2));
+        System.out.println(cat1.equals(cat3));
+
+        System.out.println(intReg.equals(intReg1));
+//        System.out.println(intReg.equals(intObject));
+
+        line();
+        ln();
+        line();
+
+
 
 
 
