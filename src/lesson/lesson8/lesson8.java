@@ -24,7 +24,7 @@ public class lesson8 {
         Integer intReg1 = 4;
         Double doubReg = 5.5;
 
-//       Integer intObject = new Integer(4);
+//        Integer intObject = new Integer(4);
 //        Double doubObject = new Double(5.5);
 
         String str1 = "Hello";
@@ -60,6 +60,11 @@ public class lesson8 {
         line();
         ln();
         line();
+
+        verify(cat1, cat2);
+//        verify(intReg, intObject);
+//        System.out.println(intReg == intObject);
+//        System.out.println(intReg.equals(intObject));
 
 
 
