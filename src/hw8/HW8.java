@@ -20,6 +20,8 @@ public class HW8 {
                 + "\t| " + verify(doub8, HW8_1.doub8_1));
         line();
 
+        line();
+
 
 
 
