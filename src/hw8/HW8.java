@@ -23,7 +23,8 @@ public class HW8 {
         line();
         System.out.println("Hello");
         System.out.println("Hello");
-
+        System.out.println("Hello");
+        System.out.println("Hello");
 
 
 
