@@ -1,5 +1,7 @@
 package utils;
 
+import java.util.Arrays;
+
 public class Utils {
 
     public static final String ANSI_RESET = "\u001B[0m";
@@ -13,7 +15,7 @@ public class Utils {
     public static final String ANSI_WHITE = "\u001B[37m";
 
     public static void line() {
-        System.out.println("______________________________________________________");
+        System.out.println("____________________________________________________________");
     }
 
     public static void ln() {
@@ -22,35 +24,31 @@ public class Utils {
 
     public static String verify(int expectedResult, int actualResult) {
         if (expectedResult == actualResult) {
-            System.out.println("\u001B[32m" + "Pass" + "\u001B[0m");
 
-            return "Pass";
+            return (ANSI_GREEN + "Pass" + ANSI_RESET);
         } else {
-            System.out.println("\u001B[31m" + "Fail" + "\u001B[0m");
 
-            return "Fail";
+            return (ANSI_RED + "Fail" + ANSI_RESET);
         }
     }
 
     public static String verify(double expectedResult, double actualResult) {
         if (expectedResult == actualResult) {
 
-            return ("\u001B[32m" + "Pass" + "\u001B[0m");
+            return (ANSI_GREEN + "Pass" + ANSI_RESET);
         } else {
 
-            return "Fail";
+            return (ANSI_RED + "Fail" + ANSI_RESET);
         }
     }
 
     public static String verify(String expectedResult, String actualResult) {
         if (expectedResult.equals(actualResult)) {
-            System.out.println("\u001B[32m" + "Pass" + "\u001B[0m");
 
-            return "Pass";
+            return (ANSI_GREEN + "Pass" + ANSI_RESET);
         } else {
-            System.out.println("\u001B[31m" + "Fail" + "\u001B[0m");
 
-            return "Fail";
+            return (ANSI_RED + "Fail" + ANSI_RESET);
         }
     }
 
@@ -63,6 +61,18 @@ public class Utils {
         printStars();
         System.out.println(ANSI_PURPLE + "Задача " + number + ANSI_RESET);
         line();
+    }
+
+    public static void printArray(int[] array) {
+        System.out.println(Arrays.toString(array));
+    }
+
+    public static void printArray(double[] array) {
+        System.out.println(Arrays.toString(array));
+    }
+
+    public static void printArray(String[] array) {
+        System.out.println(Arrays.toString(array));
     }
 
 
