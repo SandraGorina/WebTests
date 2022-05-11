@@ -233,18 +233,6 @@ public class HW8 {
         return array21;
     }
 
-
-
-
-
-
-
-
-
-
-
-
-
     public static void main(String[] args) {
 
         task(5);
