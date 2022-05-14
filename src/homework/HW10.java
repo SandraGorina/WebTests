@@ -292,6 +292,15 @@ public class HW10 {
         System.out.println(correctCity("ташкент"));
         System.out.println(correctCity("ЧикаГО"));
 
+        task(9);
+        /**
+         * Напишите метод, который принимает на вход строку,
+         * и возвращает все, что находится между первой и последней буквой-параметром:
+         * Test Data:
+         * “Abracadabra”, “b” → “bracadab”
+         * “Whippersnapper”, “p” → “ppersnapp
+         */
+
 
 
 
